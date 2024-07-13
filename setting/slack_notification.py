@@ -3,7 +3,7 @@
 #  cara send report ke slcak jalankan ini python namafolder/namfile.py
 
 import json
-from endpoint import WEBHOOK
+from endpoint import WEBHOOK, URL_NETLIFY
 import requests
 # import waktu
 from datetime import datetime
@@ -91,7 +91,7 @@ def notif_Slcak():
                         "type": "section",
                         "text": {
                             "type": "mrkdwn",
-                            "text": "This is a *<https://www.example.com|link report>*"
+                            "text": f"reporting -> *<{URL_NETLIFY}>*"
                         }
                     },
                     {

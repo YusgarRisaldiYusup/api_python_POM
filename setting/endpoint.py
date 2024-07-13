@@ -24,3 +24,6 @@ TEST_RUN_QASE_IO = "1"
 # buat menangkap endpoint webhook slack yang sudah di simpan sebagai github secret
 WEBHOOK = os.environ.get('WEBHOOK_SLACK')
 
+# (========================== netliify ==========================)
+# menangkap endpoint output netlify deployment
+URL_NETLIFY = os.environ.get('URL_NETLIFY')
