@@ -32,6 +32,7 @@ jobs:
 
 
       - name: Send Report Slack
-        run: python setting\slack_notification.py
+        run:  python setting/slack_notification.py
+
         env:
           WEBHOOK_SLACK: ${{ secrets.WEBHOOK_SLACK }}
