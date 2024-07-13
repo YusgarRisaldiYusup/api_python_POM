@@ -1,5 +1,7 @@
 # jangan jalanakan sebagai test, nanti reportnya berubah
 # run dengan python + nama file, jangan pytest
+#  cara send report ke slcak jalankan ini python namafolder/namfile.py
+
 import json
 from endpoint import WEBHOOK
 import requests
