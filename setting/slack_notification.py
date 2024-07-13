@@ -91,7 +91,7 @@ def notif_Slcak():
                         "type": "section",
                         "text": {
                             "type": "mrkdwn",
-                            "text": f"reporting -> *<{URL_NETLIFY}>*"
+                            "text": f"<{URL_NETLIFY}/report.html|link report>*"
                         }
                     },
                     {
