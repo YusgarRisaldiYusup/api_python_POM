@@ -26,7 +26,13 @@ jobs:
 
       - name: Run test with pytest
         run: pytest Test/ -v
+        env:
+          WEBHOOK_SLACK: ${{ secrets.WEBHOOK_SLACK }}
+          QASE_IO_TOKEN: ${{ secrets.QASE_IO_TOKEN }}
+
 
       - name: Send Report Slack
         if: always()
         run: python setting\slack_notification.py
+        env:
+          WEBHOOK_SLACK: ${{ secrets.WEBHOOK_SLACK }}
