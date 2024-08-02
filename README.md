@@ -3,7 +3,7 @@
 # Proyek Pengujian API Automation ini menggunakan Request, Phyton, Pytest, dengan konsep Page Objek Model
 -Api ini dibuat berdasarkan api dari https://reqres.in/
 
-Proyek ini mengimplementasikan pengujian otomatis untuk Api menggunakan Pytest sebagai library pengujian berbasis behavior-driven development (BDD), Phyton untuk bahasa pemrograman.
+Proyek ini mengimplementasikan pengujian otomatis untuk Api menggunakan Pytest sebagai library pengujian berbasis page Object Model (POM), Phyton untuk bahasa pemrograman.
 
 ## instal library
 -pip install -r requirements.txt 
